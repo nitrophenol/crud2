@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+    <div>
+           <h1>create</h1>
+    <form action="/create" method="post">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <label for="name">age</label>
+        <input type="text" name="age" id="age">
+        <label for="name">class</label>
+        <input type="text" name="class" id="class">
+        <label for="name">id</label>
+        <input type="text" name="id" id="id">
+        <button type="submit">submit</button>
+    </form>
+    </div>
+   
+
+     <br>
+    <h1>read</h1>
+
+    <form action="/read/" method="get">
+    <label for="id">id of student for reading the details</label>
+    <input type="text" name="id">
+    <button type="submit" >submit</button>
+    </form>
+    <br>
+
+    <h1>update</h1>
+    <form action="/update/" method="post">
+        <label for="id">id of student for updating the details</label>
+        <input type="text" name="id" id="id"><br>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <label for="name">age</label>
+        <input type="text" name="age" id="age">
+        <label for="name">class</label>
+        <input type="text" name="class" id="class">
+
+        <button type="submit">submit</button>
+    </form>
+    <br>
+    <h1>delete</h1>
+        <form action="/delete/" method="get">
+    <label for="id">id of student for deleting the details</label>
+    <input type="text" name="id">
+    <button type="submit" >submit</button>
+    </form>
+
+</body>
+</html>
